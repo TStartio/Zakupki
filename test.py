@@ -51,7 +51,6 @@ def get_tender_data(driver, tender_url):
 
     return print_form_url, publish_date
 
-# Основная функция
 def main():
     # Настройка Selenium
     options = webdriver.ChromeOptions()
